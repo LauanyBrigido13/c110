@@ -1,13 +1,34 @@
-import time
+import random
 
-def countdown_timer(seconds):
-    mins = seconds//60
-    secs = seconds % 60
+response = "y"
 
-    timer = f'{mins}:{secs}'
-    print(timer)
+while response == "y":
+    no = random.randint(1,6)    
 
-user_input = input("Digite o tempo em segundos: ")
-seconds = int(user_input)
-
-countdown_timer(seconds)
+    if no  == 1:
+        print("[ 0 ]")
+    if no == 2:
+        print("[ 0 ]")
+        print("[ 0 ]")
+    if no == 3:
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+    if no == 4:
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+    if no == 5:
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+    if no == 6:
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
+        print("[ 0 ]")
